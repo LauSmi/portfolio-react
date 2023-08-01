@@ -20,7 +20,7 @@ const About = () => {
                     </div>
                     <div className='break-words'>
                         <p>
-                        As an entry-level full-stack web developer, I have a solid foundation in both frontend and backend technologies. On the frontend, I'm proficient in crafting creative and elegant user interfaces using HTML, CSS, and JavaScript. I enjoy working with libraries and frameworks such as React, Bootstrap, and Tailwind to enhance the user experience and build engaging web applications.
+                        As an entry-level full-stack web developer, I have a solid foundation in both frontend and backend technologies. On the frontend, I'm enjoy crafting creative and elegant user interfaces using HTML, CSS, and JavaScript. I enjoy working with libraries and frameworks such as React, Bootstrap, and Tailwind to enhance the user experience and build engaging web applications.
 <p>
 When it comes to the backend, I have experience working with server-side languages such as Node.js, Express.js, MySQL, and MongoDB. I am enthusiastic about learning how to design and manage databases effectively to create dynamic and data-driven web applications.</p>
                         </p>
