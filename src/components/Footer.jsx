@@ -3,7 +3,7 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 const Footer = () => {
     return (
-      <footer className="bg-gray-800 text-white py-4 text-center">
+      <footer className="bg-[#8a540d] text-white py-4 text-center">
        
         © 2023 Lauren Smith. All rights reserved.
   

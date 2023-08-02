@@ -24,6 +24,27 @@
 
 .content-div:hover {
     background-image: linear-gradient(to right,
-            rgba(112, 157, 255, 0.8),
+            rgba(207, 184, 80, 0.8),
             hsla(242, 74%, 61%, 0.8)) !important;
 }
+
+.custom-tile-color {
+    background-color: #a79f63;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem; /* Adjust the padding as needed */
+    border-radius: 0.2rem; /* Add rounded corners to the boxes, adjust as needed */
+    box-shadow: 30px 6px 20px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow to the boxes */
+  }
+  
+  .custom-icon-color {
+    fill: #5f360f; /* Replace #ecba2e with your desired icon color */
+  }
+
+  .custom-tile-shadow {
+    /* Define your custom shadow styles here */
+    /* For example, you can use the same shadow style as shadow-md */
+    
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
+  }
