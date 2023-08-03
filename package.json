@@ -5,10 +5,9 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "@testing-library/user-event": "^12.1.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-icons": "^4.10.1",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
@@ -18,6 +17,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
+    "build:css": "tailwindcss build src/styles/tailwind.css -o src/styles/main.css",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/react": "^12.1.5",
     "gh-pages": "^5.0.0",
     "tailwindcss": "^3.3.3"
   }
